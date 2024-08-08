@@ -1,0 +1,681 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* padding or borderSize given to any element should be calculated within height & width */
+    border: border-box;
+    
+
+
+}
+
+/* navbar header styling */
+.navbar {
+    height: 60px;
+    background-color: rgb(2, 72, 62) ;
+    color: white;
+
+    /* to line all header divs in navbar */
+    display: flex;                            
+    align-items: center;
+    justify-content: space-around; 
+    
+}
+
+
+/* amazon logo styling */
+.navlogo{
+   height: 50px;
+   width: 113px;
+   margin-top: 1px;
+   margin-right: 1px;
+   margin-bottom: 4px;
+   margin-left: 1px;
+   /* padding-left: 6px;
+   padding-right:8px ; */
+   padding-top: 0px;
+   padding-bottom: 4px;
+   display: flex;
+   align-items: center;
+
+
+
+}
+
+
+.mainlogo{
+
+    height: 50px;
+    width: 100%;
+    background-image: url("assets/Amazonlogo.png");
+    background-size: cover;
+    
+}
+
+.navborder{
+    border: 1px solid transparent;
+
+}
+
+.navborder:hover{
+    border: 1px solid white;
+}
+
+
+/* country location styling  */
+.navlocation {
+    height: 50px;
+    padding-left: 8px;
+    padding-right: 9px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    text-align: center;
+   
+}
+.navlocation:hover{
+    border: 1px solid white;
+}
+#address {
+    font-size: 12px;
+    color: rgb(214, 214, 214);
+    font-weight: 400;
+    margin-left: 15px;
+    padding-top: 8px;
+    
+}
+
+.locationicon {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+#address2 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-left: 4px;
+    align-items: center;
+}
+
+/* product searching styling */
+
+.navsearch{
+    display: flex;
+    width: 876px;
+    height: 38px;
+    border-radius: 4px;
+    /* padding-left: 3px ; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:4px ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    overflow: hidden;
+    
+}
+
+.navsearch:hover{
+    outline: 3px solid rgb(196, 76, 140);
+}
+
+
+.select{
+    height: 37px;
+    width: 51px ;
+    font-size: 13px;
+    padding-left: 5px;
+    align-items: center;
+    text-align: center;
+    color: rgb(15, 17, 17);
+    background-color: rgb(214, 214, 214);
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+
+.searchbar {
+    height: 21px;
+    width: 780px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: flex-start;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 7px;
+    
+}
+.searchbar:hover{
+    outline: none;
+}
+.searchicon {
+    height: 37px;
+    width: 45px;
+    background-color: #FADCD2;
+    border: none;
+    font-size: 20px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* language div styling  */
+.lang{
+    height: 45px;
+    width: 55px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.usaflag {
+    height: 16px;
+    width: 20px;
+    background-image: url(/assets/usaflag.webp);
+    background-size: cover;
+    margin-right: 2px;
+    margin-bottom: 1px;
+    margin-top: 12px;
+}
+
+.lang:hover{
+    border: 1px solid white;
+}
+
+.engl{
+    height: 15px;
+    width: 18px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 12px;
+
+}
+
+.chooselang{
+    visibility: visible;
+}
+
+.arrow{
+    font-size: small;
+    color: rgb(214, 214, 214);
+    margin-top: 14px;
+    margin-left: 3px;
+}
+
+/* sing-in div styling */
+.signin {
+    height: 43px;
+    width: 120px;
+    display: inline-block;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 10px;
+
+}
+
+.signin:hover{
+    border: 1px solid white;
+}
+
+.hello{
+    height: 14px;
+    width: 70.412px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+
+
+}
+
+.accounts{
+    height: 15px;
+    width: 113px;
+    align-items: center;
+    font-size: 14px;
+
+    font-weight: 700;
+    
+}
+
+
+/* return div styling */
+.returns{
+        height: 43px;
+        width: 80px;
+        margin-left: 4px;
+        padding-left: 9px;
+        padding-top: 10px;
+    
+}
+
+.returns:hover{
+    border: 1px solid white;
+}
+
+/* cart styling */
+.cart{
+    height: 45px;
+    width: 75px;
+    display: inline-block;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.cart:hover{
+    border: 1px solid white;
+}
+
+.cartstyle{
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.cartstyle2{
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+/* header panel begins here */
+/* Panel styling */
+.panel{
+    height: 39px;
+    width: 100%;
+    background-color: rgb(10, 86, 75);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.bars{
+    height: 26px;
+    width: 58px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+    
+}
+
+.bars:hover{
+    border: 1px solid white;
+}
+
+/* panel links styling */
+.headerlinks{
+    height: 39px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+
+.panellinks a{
+    height: 26px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 18px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.panellinks a:hover{
+    border: 1px solid white;
+}
+
+
+.sale{
+    font-size: 14px;
+    font-weight: 700;
+    height: 24px;
+    width: 178px;
+    
+    margin-left: 40px;
+    padding-top: 6px;
+    padding-left: 12px;
+
+    
+}
+
+.sale:hover{
+    border: 1px solid white;
+    
+}
+
+
+/* hero section styling */
+.herosection{
+    height: 330px;
+    background-image: url(assets/hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* hero message div styling */
+.heromsg{
+    background-color: #F5F6F6;
+    height: 40PX;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.heromsg a {
+    text-decoration: none;
+    color: #007185;
+    
+}
+
+
+/* shopping section in diffrent divs styling */
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(162, 162, 204,0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.divs{
+    height: 400px;
+    width: 350px;
+    background-color:white;
+
+    
+}
+
+
+
+/* shop 1 */
+
+h2{
+    font-size: 21px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.shopsection a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px;
+    
+}
+
+
+.img1{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    background-size: cover;
+    
+}
+
+.seemore{
+    margin-top: 15px;
+    margin-left: 20px;
+        
+}
+
+
+/* shop 2 */
+
+.shops{
+    height: 270px;
+    width: 154px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 20px;
+
+}
+
+.shop1 .img4{
+    height: 110px;
+    width: 150px;
+    background-size: cover;
+    margin: 0;
+ 
+}
+
+.shop2 .img4{
+    height: 110px;
+    width: 150px;
+    background-size: cover;
+    margin: 0;
+    
+  
+}
+
+.shop3 .img4{
+    height: 110px;
+    width: 150px;
+    background-size: cover;
+    margin: 0;
+}
+
+.shop4 .img4{
+    height: 110px;
+    width: 150px;
+    background-size: cover;
+    margin: 0;
+    
+}
+
+.box2 .seemore{
+    margin-top: 20px;
+}
+
+/* shop 3 */
+.img3{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    background-size: cover;
+    
+}
+
+/* shop 4 */
+.img4{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    background-size: cover;
+    
+}
+
+/* shop section - 2 */
+.img5{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    background-size: cover;
+        
+    
+}
+
+.img6{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    background-size: cover;
+    
+}
+
+.img7{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    background-size: cover;
+    
+}
+
+.shopsec2 {
+    height: 270px;
+    width: 154px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 20px;
+} 
+.box8 .seemore2{
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+
+/* footer styling */
+
+
+.ftpanel1{
+    font-size: 15px;
+    height: 20px;
+    width: 100%;
+    background-color:#37475A;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    /* margin-top: 2%; */
+    padding-bottom: 15px;
+
+}
+
+.ftpanel2{
+    height: 300px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    
+
+}
+
+ul a{
+    display: block;
+}
+
+.ftpanel2 p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ftpanel2 a {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #DDDDDD;
+    
+}
+
+.ftpanel3{
+    height: 80px;
+    background-color: #232F3E;
+    color: white;
+    border-top: 0.1px solid rgb(158, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.ftlogo{
+    height: 50px;
+    width: 90px;
+    background-image: url(Amazonlogo.png);
+    background-size: cover;
+    margin-top: 9px;
+    margin-right: 70px;
+}
+
+button{
+    text-align: center;
+    margin-right: 4px;
+    background-color: #232F3E;
+    border: 1px solid white;
+    color: #CCCCCC;
+}
+
+.btn1{
+    height: 33px;
+    width:116px ;
+    border-radius: 3px;
+}
+
+.btn2{
+    height: 33px;
+    width: 150px;
+    border-radius: 3px;
+}
+.btn3{
+    height: 33px;
+    width: 140px;
+    border-radius: 3px;
+}
+
+.btn3 .btnflag{
+    height: 12px;
+    width: 18px;
+    margin-right: 4px;
+    background-size: cover;
+
+}
+
+
+.ftpanel4{
+    height: 50px;
+    background-color: #131A22;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ftpanel4 .rightslink{
+    color: white;
+    font-size: 12px;
+    
+}
+
+
+.ftpanel4 a{
+    margin-left: 10px;
+    
+}
+
+.ftpanel4 .cpywrite{
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}
